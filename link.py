@@ -43,5 +43,5 @@ class ELink:
             if obj['name'] == chromo:
                 return obj['length']
 
-        print(specie, ['name'], ["length"])
+        print(json['karyotype'])
         return -1
