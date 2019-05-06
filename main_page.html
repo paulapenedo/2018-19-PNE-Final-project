@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MAIN PAGE</title>
+    </head>
+    <body style="Background-color: lightblue;">
+        <h1 align="middle"><B>Final Practice</B></h1>
+        <table width="100%&" border = 0 align="middle">
+            <tr>
+                <th><h2>Basic</h2></th>
+            </tr>
+            <tr>
+                <td  align="middle" valign="top">
+                    <div>
+                        <h3 align="middle">List species</h3>
+                        <form action="/listSpecies" method="get">
+                            <br>Limit: <input type="number" name="limit"></br>
+                            <br><input type = "submit" value="GO"></br>
+                        </form>
+                    </div>
+                    <div>
+                        <h3 align="middle">Karyotype</h3>
+                        <form action="/karyotype" method="get">
+                            <br>Specie: <input type="text" name="specie"></br>
+                            <input type = "submit" value="GO">
+                        </form>
+                    </div>
+                    <div>
+                        <h3 align="middle">Chromosome length</h3>
+                        <form action="/chromosomeLength" method="get">
+                            <br>Specie: <input type="text" name="specie"></br>
+                            <br>Chromo: <input type="text" name="chromo"></br>
+                            <input type = "submit" value="GO">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
