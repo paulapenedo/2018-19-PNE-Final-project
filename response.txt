@@ -1,0 +1,45 @@
+"C:\Program Files (x86)\JetBrains\python.exe" C:/Users/Paula/Documents/UNIVERSIDAD/URJC/Programming2/2018-19-PNE-Final-project/server.py
+Serving at PORT 8000
+GET / HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2019 19:33:00] "GET /favicon.ico HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
+GET /listSpecies?limit=11 HTTP/1.1
+http://rest.ensembl.org/info/species
+127.0.0.1 - - [06/May/2019 19:33:04] "GET /listSpecies?limit=11 HTTP/1.1" 200 -
+['Mouse', 'Human', 'Guinea Pig', 'Mouse CBA/J', 'Midas cichlid', 'Anole lizard', 'Capuchin', 'Ballan wrasse', 'Leopard', 'Fugu', 'Black snub-nosed monkey'] 11
+GET /favicon.ico HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:04] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2019 19:33:06] "GET / HTTP/1.1" 200 -
+GET / HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:06] "GET /favicon.ico HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
+GET /listSpecies?limit= HTTP/1.1
+http://rest.ensembl.org/info/species
+['Mouse', 'Human', 'Guinea Pig', 'Mouse CBA/J', 'Midas cichlid', 'Anole lizard', 'Capuchin', 'Ballan wrasse', 'Leopard', 'Fugu', 'Black snub-nosed monkey', 'Zig-zag eel', 'Blue-crowned manakin', 'Damara mole rat', 'Opossum', 'Donkey', 'Platyfish', 'Little spotted kiwi', 'Ruff', 'Stickleback', 'Chinese hamster PICR', 'Steppe mouse', 'Indian medaka', 'Upper Galilee mountains blind mole rat', 'Abingdon island giant tortoise', 'Spiny chromis', 'Asian bonytongue', 'Tasmanian devil', 'Chicken', 'Coelacanth', 'Helmeted guineafowl', 'Mouse A/J', 'Sailfin molly', 'Koala', 'Mouse FVB/NJ', 'Chinese hamster CHOK1GS', 'Mouse LP/J', 'Naked mole-rat female', 'Spoon-billed sandpiper', 'Duck', 'Bolivian squirrel monkey', 'Bengalese finch', 'Marmoset', 'Sheep', 'Olive baboon', 'Crab-eating macaque', 'Mainland tiger snake', 'Goat', 'Mummichog', 'American black bear', 'Mouse NZO/HlLtJ', 'Wallaby', 'Dolphin', 'Western mosquitofish', 'Cat', 'Bonobo', 'Gibbon', 'Vervet-AGM', 'Cow', 'Clown anemonefish', 'Shrew mouse', 'Japanese quail', 'Tarsier', 'Great spotted kiwi', 'Pig-tailed macaque', 'Tuatara', 'Pink-footed goose', 'Climbing perch', 'Spotted gar', 'Golden snub-nosed monkey', 'Daurian ground squirrel', 'Amazon molly', 'Turbot', 'Algerian mouse', 'Lamprey', 'Xenopus', "Agassiz's desert tortoise", 'American bison', 'Mouse 129S1/SvImJ', 'Channel catfish', 'Degu', 'Angola colobus', 'Golden-collared manakin', 'Eastern happy', 'Greater bamboo lemur', 'Mouse WSB/EiJ', 'Armadillo', 'Mangrove rivulus', 'Mouse DBA/2J', 'Arctic ground squirrel', 'Gorilla', 'Mouse Lemur', 'Drill', 'Central bearded dragon', 'American mink', 'Great Tit', 'Macaque', 'Platypus', 'Japanese medaka HNI', 'Hagfish', 'Dingo', 'Zebrafish', 'Mouse NOD/ShiLtJ', 'Bicolor damselfish', 'Long-tailed chinchilla', 'Mouse C57BL/6NJ', 'Mexican tetra', 'Squirrel', 'Alpaca', 'Australian saltwater crocodile', 'White-throated sparrow', 'Orange clownfish', 'Tiger', 'Turkey', 'Ugandan red Colobus', 'Alpine marmot', 'Common canary', 'Okarito brown kiwi', 'Argentine black and white tegu', 'Sloth', 'Ryukyu mouse', 'Shrew', 'Zebra Finch', 'Gelada', 'Tiger tail seahorse', 'Brazilian guinea pig', 'Periophthalmus magnuspinnatus', "Ma's night monkey", 'Microbat', 'Pig', "Coquerel's sifaka", 'Drosophila melanogaster', 'Makobe Island cichlid', 'Lesser hedgehog tenrec', 'Dark-eyed junco', 'Red fox', 'Chimpanzee', 'Chinese hamster CriGri', 'Greater amberjack', 'Hedgehog', 'Elephant', 'Lyretail cichlid', 'Chinese softshell turtle', 'Prairie vole', 'Ocean sunfish', 'Polar bear', 'Emu', 'Rabbit', 'Monterrey platyfish', 'Sheepshead minnow', 'C.intestinalis', 'Red-bellied piranha', 'Northern pike', 'Pika', 'Ferret', 'C.savignyi', 'Mongolian gerbil', 'Paramormyrops kingsleyae', 'Lesser Egyptian jerboa', 'Kangaroo rat', 'Sooty mangabey', 'Tilapia', 'Orangutan', 'Painted turtle', 'Zebra mbuna', 'Horse', 'Golden Hamster', 'Megabat', 'Yellowtail amberjack', 'Blue tit', 'Mouse PWK/PhJ', 'Cod', "Burton's mouthbrooder", 'Saccharomyces cerevisiae', 'Tongue sole', 'Dog', 'Swamp eel', 'Panda', 'American beaver', 'Budgerigar', 'Northern American deer mouse', 'Flycatcher', 'Wild yak', 'Mouse BALB/cJ', 'Mouse CAST/EiJ', 'Rat', 'Bushbaby', 'Naked mole-rat male', 'Caenorhabditis elegans', 'Guppy', 'Japanese medaka HSOK', 'Tetraodon', 'Chilean tinamou', 'Tree Shrew', 'Mouse C3H/HeJ', 'Shortfin molly', 'Japanese medaka HdrR', 'Hyrax', 'Mouse AKR/J'] 0
+127.0.0.1 - - [06/May/2019 19:33:07] "GET /listSpecies?limit= HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:08] "GET /favicon.ico HTTP/1.1" 200 -
+GET / HTTP/1.1127.0.0.1 - - [06/May/2019 19:33:11] "GET / HTTP/1.1" 200 -
+
+GET /favicon.ico HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:11] "GET /favicon.ico HTTP/1.1" 200 -
+GET /karyotype?specie=mouse HTTP/1.1
+http://rest.ensembl.org/info/assembly/mouse
+127.0.0.1 - - [06/May/2019 19:33:15] "GET /karyotype?specie=mouse HTTP/1.1" 200 -
+['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'X', 'Y', 'MT']
+GET /favicon.ico HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:15] "GET /favicon.ico HTTP/1.1" 200 -
+GET / HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2019 19:33:17] "GET /favicon.ico HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
+GET /chromosomeLength?specie=mouse&chromo=18 HTTP/1.1
+http://rest.ensembl.org/info/assembly/mouse
+127.0.0.1 - - [06/May/2019 19:33:22] "GET /chromosomeLength?specie=mouse&chromo=18 HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:23] "GET /favicon.ico HTTP/1.1" 200 -
+GET / HTTP/1.1
+127.0.0.1 - - [06/May/2019 19:33:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2019 19:33:25] "GET /favicon.ico HTTP/1.1" 200 -
+GET /favicon.ico HTTP/1.1
